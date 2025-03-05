@@ -1,6 +1,6 @@
-<div style="text-align: center; font-family: Arial; font-size: 18px; color: rgb(255, 120, 93);">
-    CycleGAN
-</div>
+<center>
+    <font face="Arial" size="18" color= rgb(255,128,98)>CycleGAN</font>
+</center>
 ***Generative Adversarial Networks*** (GANs) are a deep - learning model consisting of a **generator** and a **discriminator**. They **compete** to boost performance. The generator aims to **convert** images as realistically as possible, while the discriminator judges whether images are **real** or **generator - created**. CycleGAN is an **unsupervised - learning** GAN - based model. It handles image - to - image translation without **paired image data**. CycleGAN can change image styles and learn **mappings** between different image domains without paired data.
 
 CycleGAN's core is **cycle - consistency loss**, which ensures that converted images, when translated back to the original domain, **retain** the input images' structural info. Unlike traditional GANs, CycleGAN uses **two generators** and **two discriminators** for image mapping. One generator creates mappings from the source to target domain, and the discriminator determines if images are from the target domain. A "reverse" generator and cycle - consistency loss ensure mapping **reliability**.
