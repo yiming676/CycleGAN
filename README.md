@@ -1,4 +1,4 @@
-<div style="text-align: center; font-family: Arial; font-size: 18px; color: rgb(255, 182, 193);">
+<div style="text-align: center; font-family: Arial; font-size: 18px; color: rgb(255, 120, 93);">
     CycleGAN
 </div>
 ***Generative Adversarial Networks*** (GANs) are a deep - learning model consisting of a **generator** and a **discriminator**. They **compete** to boost performance. The generator aims to **convert** images as realistically as possible, while the discriminator judges whether images are **real** or **generator - created**. CycleGAN is an **unsupervised - learning** GAN - based model. It handles image - to - image translation without **paired image data**. CycleGAN can change image styles and learn **mappings** between different image domains without paired data.
