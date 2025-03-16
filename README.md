@@ -13,7 +13,6 @@ CycleGAN has many uses, like art style transfer, season changes, object deformat
 
 **Output**: After successful testing, you'll see the **style - transferred images** and can directly view the results.
 
-This is about CycleGAN from Lee Hongyi's neural - network course. If you use it, remember to **like Lee Hongyi's video**.
 ***
 ***生成对抗网络***（GANs）是一种深度学习模型，由 **生成器** 和 **判别器** 组成，它们相互竞争以提高性能。生成器的任务是尽可能真实地 **转换** 图像，而判别器的任务是 **判断** 图像是真实的还是由生成器生成的。CycleGAN是一种基于生成对抗网络（GAN）的**无监督学习**模型，旨在解决**没有成对图像数据**的图像到图像转换问题。CycleGAN不仅可以实现图像风格的转换，还能够在没有成对数据的情况下，学习到不同领域图像之间的映射关系。
 CycleGAN的核心思想是通过引入**循环一致性损失**来确保生成的图像在转换回原始域时，能够保持与输入图像相同的结构信息。与传统的生成对抗网络不同，CycleGAN不需要成对的训练数据，它通过**两个**生成器和**两个**判别器来实现图像到图像的映射。生成器负责生成从源域到目标域的映射，判别器则用于判断图像是否来自目标域。为了确保映射的可靠性，CycleGAN还引入了“逆向”生成器，并通过循环一致性损失来确保图像的可逆性。
@@ -25,4 +24,3 @@ CycleGAN在多个领域展现出了强大的应用潜力，包括艺术风格迁
 - 训练与测试过程：在训练过程中，CycleGAN会通过生成器和判别器的对抗训练来学习从苹果图像到橘子图像的转换。测试时，你可以使用预训练的模型或者自己训练的模型来转换测试集中的苹果图像到橘子风格。
 - 输出结果：测试成功后，你将看到转换后的图像，你可以直观地看到风格迁移后的图像效果。
 
-这是 李宏毅 老师的神经网络课程上讲解过的生成对抗网络--CycleGAN，大家使用的话记得给李宏毅老师的视频点赞haha
